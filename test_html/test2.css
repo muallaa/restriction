@@ -1,0 +1,122 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+:root{
+    --c : #0b2447;
+    --cc:#a5d7e8;
+}
+.main {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: inset 0px 0px 10px rgba(165, 215, 232, 0.6);
+    /* Warning: CSS does not support Inner Shadow.*/
+    background: #f7f7f7;
+    background: linear-gradient(91deg, #f7f7f7 0.00%, #3787a1 100.00%);
+    top: 0;
+}
+
+#name{
+    color: var(--c);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.quic{
+    align-self: center;
+}
+.quic .links {
+    
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.quic .links a {
+    box-shadow: inset 0px 0px 100px #0b2447;
+    /* Warning: CSS does not support Inner Shadow.*/
+    background: #a5d7e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 100%;
+    padding: 10px;
+    padding-inline: 50px;
+    justify-self: center;
+    
+}
+
+.sections{
+    border-radius: 25px;
+    
+}
+.item {
+    box-shadow: inset 0px 0px 10px rgba(165, 215, 232, 0.6);
+    /* Warning: CSS does not support Inner Shadow.*/
+    background: #f7f7f7;
+    background: linear-gradient( to top, #f7f7f7 0.00%, #3787a1 100.00%);
+    border-radius: 45px;
+   
+    color: #0b2447;
+    
+}
+
+.item a {
+    /* Warning: CSS does not support Inner Shadow.*/
+    background: #a5d7e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 100%;
+    padding: 10px;
+    padding-inline: 50px;
+}
+
+
+    /* bi-arrow-left-circle-fill */
+    
+    .bi-arrow-left-circle-fill{
+        cursor: pointer;
+        margin-left: 20vh;
+        position: absolute;
+    
+        
+    }
+    /* bi-arrow-left-circle-fill end */
+
+    /* storage state*/
+
+    .storagestate span div:nth-child(2) span p{
+
+        font-size: 20px;
+    }
+
+    /* storage state*/
+
+    /* monthlyaccount */
+  .monthlyaccount span div:nth-child(2) div span{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-size: 12px;
+  }
+
+  
+  .monthlyaccount span div:nth-child(2) div span:nth-child(2){
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+    /* monthlyaccount */
+
+.recent {
+    box-shadow: inset 0px 0px 10px rgba(165, 215, 232, 0.6);
+    /* Warning: CSS does not support Inner Shadow.*/
+    background: #f7f7f7;
+    border-radius: 20px;
+    color: black;
+}
+
+
+
+

@@ -1,0 +1,58 @@
+@media (max-width:800px) {
+
+    
+#name{
+    color: var(--c);
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 1.5rem;
+}
+
+.quic{
+    align-self: center;
+}
+
+.quic .row span:nth-child(1) img , 
+.quic .row span:nth-child(3) img{
+    width: 80;
+    height: 80;
+    margin-left: 2.5rem;
+}
+.quic .links {
+    
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.quic .links a {
+    box-shadow: inset 0px 0px 100px #0b2447;
+    /* Warning: CSS does not support Inner Shadow.*/
+    background: #a5d7e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 12px;
+    padding: 10px;
+    padding-inline: 50px;
+    justify-self: center;
+    
+}
+
+
+.quic .links a .bi{
+    font-size: 15px;
+}
+
+
+/* bi-arrow-left-circle-fill */
+
+.bi-arrow-left-circle-fill{
+    cursor: pointer;
+    margin-left: 12vh;
+    position: absolute;
+
+    
+}
+/* bi-arrow-left-circle-fill end */
+}
